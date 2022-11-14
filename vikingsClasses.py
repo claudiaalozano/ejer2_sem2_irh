@@ -16,4 +16,4 @@ class Vikings(Soldier):
         Soldier.__init__(self,health, strength)
         self.name = name
     
-    def att
+    
