@@ -23,10 +23,12 @@ def fight(viking, saxon):
             if viking.health <= 0:
                 vikings.remove(vikings)
     
-    if len(viking) > 0:
+    if len(vikings) > 0:
         print("The Vikings win.")
     else:
         print("The Saxons win.")
 
 if __name__ == "__main__":
-    
+    viking = Vikings("Harald", 100, 20)
+    saxon = Saxon(200, 10)
+    fight(viking, saxon)
